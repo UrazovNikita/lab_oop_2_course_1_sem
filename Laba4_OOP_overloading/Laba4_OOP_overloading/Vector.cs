@@ -58,7 +58,5 @@ namespace Laba4_OOP_overloading
             if (Vector.x != 0 && Vector.y != 0) return true;
             else return false;
         }
-       
-
     }
 }

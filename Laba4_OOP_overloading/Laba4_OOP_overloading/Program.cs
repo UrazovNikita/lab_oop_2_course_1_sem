@@ -4,19 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace Laba4_OOP_overloading
 {
 
     class Program
     {
-        class Date
-        {
-            public string date = DateTime.Now.ToString();
-        }
+       
 
         static void Main(string[] args)
         {
-            Program.Date Date = new Program.Date();
+            Date Date = new Date();
             Console.WriteLine("Дата создания: {0}", Date.date);
 
             string str = "Hello world";
