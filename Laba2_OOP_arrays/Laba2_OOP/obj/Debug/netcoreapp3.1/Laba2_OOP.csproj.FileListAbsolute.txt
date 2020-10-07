@@ -1,0 +1,13 @@
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.csprojAssemblyReference.cache
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.AssemblyInfoInputs.cache
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.AssemblyInfo.cs
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.csproj.CoreCompileInputs.cache
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.exe
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.deps.json
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.runtimeconfig.json
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.runtimeconfig.dev.json
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.dll
+E:\laboop\Laba2_OOP\Laba2_OOP\bin\Debug\netcoreapp3.1\Laba2_OOP.pdb
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.dll
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.pdb
+E:\laboop\Laba2_OOP\Laba2_OOP\obj\Debug\netcoreapp3.1\Laba2_OOP.genruntimeconfig.cache
