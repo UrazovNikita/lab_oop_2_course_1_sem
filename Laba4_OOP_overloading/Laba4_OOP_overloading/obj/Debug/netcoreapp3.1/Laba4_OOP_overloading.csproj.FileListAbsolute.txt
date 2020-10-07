@@ -1,0 +1,13 @@
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.exe
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.deps.json
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.runtimeconfig.json
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.runtimeconfig.dev.json
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.dll
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\bin\Debug\netcoreapp3.1\Laba4_OOP_overloading.pdb
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.csprojAssemblyReference.cache
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.AssemblyInfoInputs.cache
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.AssemblyInfo.cs
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.csproj.CoreCompileInputs.cache
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.dll
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.pdb
+E:\laboop\Laba4_OOP_overloading\Laba4_OOP_overloading\obj\Debug\netcoreapp3.1\Laba4_OOP_overloading.genruntimeconfig.cache

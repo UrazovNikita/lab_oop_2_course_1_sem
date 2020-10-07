@@ -8,8 +8,27 @@ namespace Laba3_OOP
     {
         private string name;
         private string author;
+        private static string matertial;
+        private static int count = 0;
+        private readonly int hashid=5*count;
+        private const int pages = 500;
+        static Book()
+        {
+            matertial = "paper";
+            count++;
 
-      public void SetName()
+        }
+
+        public Book() { name = "unnamed"; author = "undefined"; }
+        public Book(string n) { name = n; author = "undefined"; }
+        //public Book(string n, string a) { name = n; author = a; }  
+        
+        private Book(string n, string a) {name=n; author = a; }
+
+        
+
+
+        public void SetName()
         {
             Console.WriteLine("Введите имя книги");
             name = Console.ReadLine();
