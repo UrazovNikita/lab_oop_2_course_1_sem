@@ -111,6 +111,15 @@ namespace Laba3_OOP
 
 
                     Book book1 = new Book();
+                    Book book2 = new Book();
+
+                    string a = Console.ReadLine();
+
+                    book1.SetAuthor(ref a);
+
+                    Console.WriteLine(Book.count);
+
+                    
                     
 
                     break;
