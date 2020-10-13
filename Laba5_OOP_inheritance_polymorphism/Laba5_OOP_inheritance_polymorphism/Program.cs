@@ -6,7 +6,8 @@ namespace Laba5_OOP_inheritance_polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Boat bismark = new Boat();
+           
         }
     }
 }
