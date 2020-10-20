@@ -12,6 +12,8 @@ namespace Laba5_OOP_inheritance_polymorphism
             Steamship steam = new Steamship(Console.ReadLine());
            steam.move();
             steam.ring();
+
+            
         }
     }
 }
