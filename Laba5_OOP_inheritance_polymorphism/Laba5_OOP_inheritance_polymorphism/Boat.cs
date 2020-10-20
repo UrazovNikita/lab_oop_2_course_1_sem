@@ -6,9 +6,11 @@ namespace Laba5_OOP_inheritance_polymorphism
 {
     class Boat : Vehicle
     {
-        
-        public Boat(string name) { Captain captain = new Captain(name); }
-
+        public Boat() {
+            Console.Write("Ведите количство членов экипажа лодки:");
+            this.crew = Console.ReadLine();
+            Console.WriteLine();
+        }
         public override void ring() {  }
 
     }
