@@ -6,7 +6,7 @@ namespace Laba5_OOP_inheritance_polymorphism
 {
     class Sailboat : Vehicle
     {
-        Captain captain;
+      public Captain captain;
         public Sailboat(string name)
         {
             this.captain = new Captain(name);

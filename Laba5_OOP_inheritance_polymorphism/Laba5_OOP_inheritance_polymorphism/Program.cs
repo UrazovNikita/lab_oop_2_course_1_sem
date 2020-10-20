@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.PortableExecutable;
 
 namespace Laba5_OOP_inheritance_polymorphism
 {
@@ -6,14 +7,17 @@ namespace Laba5_OOP_inheritance_polymorphism
     {
         static void Main(string[] args)
         {
-            Ship lodka = new Ship(Console.ReadLine());
-            lodka.move();
-            lodka.ring();
-            Steamship steam = new Steamship(Console.ReadLine());
-           steam.move();
-            steam.ring();
 
+            Sailboat ship = new Sailboat("jack");
+
+          Vehicle newship = ship as Vehicle;
+
+           
             
+
+
+
+
         }
     }
 }

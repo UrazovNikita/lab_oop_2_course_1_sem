@@ -4,13 +4,12 @@ using System.Text;
 
 namespace Laba5_OOP_inheritance_polymorphism
 {
-   sealed class Captain
+    class Printer
     {
-        public Captain(string name)
+        static public void iAmPrinting(IVehicleActions objects)
         {
-            this.name = name;
+            Console.WriteLine(objects.ToString());
         }
-        public string name { get; set; }
-
     }
 }
+
