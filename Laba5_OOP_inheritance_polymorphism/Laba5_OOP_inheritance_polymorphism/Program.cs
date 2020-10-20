@@ -6,8 +6,12 @@ namespace Laba5_OOP_inheritance_polymorphism
     {
         static void Main(string[] args)
         {
-            Boat bismark = new Boat();
-           
+            Boat lodka = new Boat(Console.ReadLine());
+            lodka.move();
+            lodka.ring();
+            Steamship steam = new Steamship(Console.ReadLine());
+           steam.move();
+            steam.ring();
         }
     }
 }

@@ -6,5 +6,6 @@ namespace Laba5_OOP_inheritance_polymorphism
 {
     class Sailboat : Vehicle
     {
+        public override void ring() {  }
     }
 }

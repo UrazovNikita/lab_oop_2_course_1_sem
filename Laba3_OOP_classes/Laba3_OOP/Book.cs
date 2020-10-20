@@ -16,11 +16,11 @@ namespace Laba3_OOP
         {
             matertial = "paper";
 
-
         }
 
         public Book() { name = "unnamed"; author = "undefined"; count++; }
         public Book(string n) { name = n; author = "undefined"; }
+
         //public Book(string n, string a) { name = n; author = a; }  
 
         private Book(string n, string a) { name = n; author = a; }
