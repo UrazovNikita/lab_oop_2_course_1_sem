@@ -6,10 +6,23 @@ namespace Laba5_OOP_inheritance_polymorphism
 {
     class Sailboat : Vehicle
     {
-      public Captain captain;
+
+        public string applicationArea = "civil";
+        public Captain captain;
+
+        public Sailboat() { }
         public Sailboat(string name)
         {
             this.captain = new Captain(name);
+        }
+
+        public override string ToString()
+        {
+            string str = Convert.ToString(this.GetType());
+            Console.WriteLine(this.crew);
+            Console.WriteLine(this.applicationArea);
+            Console.WriteLine(this.maxSpeed);
+            return str;
         }
         public override void ring() {  }
     }

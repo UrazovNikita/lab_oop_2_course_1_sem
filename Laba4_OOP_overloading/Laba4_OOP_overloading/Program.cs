@@ -36,7 +36,7 @@ namespace Laba4_OOP_overloading
         }
     }
 
-    public static class StringExtension
+    public static class StatisticOperation
     {
         public static string WordMinus(this string str, int c)
         {

@@ -22,10 +22,11 @@ namespace Laba5_OOP_inheritance_polymorphism
         {
             Console.WriteLine(Convert.ToString(this.GetType()) + " has been stoped");
 
-    }
-        public virtual void ring() {
-            Console.WriteLine("RING!!!");
         }
+        public abstract void ring();
+        //{
+        //    Console.WriteLine("RING!!!");
+        //}
        
 
     }

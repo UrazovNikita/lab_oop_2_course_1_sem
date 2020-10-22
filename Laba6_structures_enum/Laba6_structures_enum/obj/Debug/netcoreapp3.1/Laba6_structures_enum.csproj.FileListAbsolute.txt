@@ -1,0 +1,13 @@
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.csprojAssemblyReference.cache
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.AssemblyInfoInputs.cache
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.AssemblyInfo.cs
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.csproj.CoreCompileInputs.cache
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.exe
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.deps.json
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.runtimeconfig.json
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.runtimeconfig.dev.json
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.dll
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\bin\Debug\netcoreapp3.1\Laba6_structures_enum.pdb
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.dll
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.pdb
+E:\laboop\Laba6_structures_enum\Laba6_structures_enum\obj\Debug\netcoreapp3.1\Laba6_structures_enum.genruntimeconfig.cache
