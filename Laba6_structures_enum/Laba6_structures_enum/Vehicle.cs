@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace Laba6_structures_enum
+namespace Laba5_OOP_inheritance_polymorphism
 {
     abstract class Vehicle : IVehicleActions
     {
@@ -22,12 +22,10 @@ namespace Laba6_structures_enum
         {
             Console.WriteLine(Convert.ToString(this.GetType()) + " has been stoped");
 
-    }
-        public virtual void ring()
-        {
-            Console.WriteLine("RING!!!");
         }
+        public abstract void ring();
+       
 
 
-    }
+}
 }

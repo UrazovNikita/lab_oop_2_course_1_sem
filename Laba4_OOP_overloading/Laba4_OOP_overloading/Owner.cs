@@ -8,7 +8,7 @@ namespace Laba4_OOP_overloading
     {
         int Id = 25676;
         string Name = "UUU";
-        string UO = "GGGGG";
+        string UO = "BGTU";
 
         public Owner(int Id, string Name, string UO)
         {

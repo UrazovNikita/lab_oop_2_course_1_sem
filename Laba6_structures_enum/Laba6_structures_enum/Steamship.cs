@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using System.Text;
 
 
-namespace Laba6_structures_enum
+namespace Laba5_OOP_inheritance_polymorphism
 {
     class Steamship : Vehicle
     {
-      public Captain captain;
+
+        public string applicationArea = "civil";
+        public Captain captain;
+
+        public Steamship() { }
         public Steamship(string name)
         {
             this.captain = new Captain(name);
@@ -16,8 +20,10 @@ namespace Laba6_structures_enum
 
         public override string ToString()
         {
-            string str = "Метод 'ToStrig' переопределен";
-            Console.WriteLine(str);
+            string str = Convert.ToString(this.GetType());
+            Console.WriteLine(this.crew);
+            Console.WriteLine(this.applicationArea);
+            Console.WriteLine(this.maxSpeed);
             return str;
         }
         public override int GetHashCode()
