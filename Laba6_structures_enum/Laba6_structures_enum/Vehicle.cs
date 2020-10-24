@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Security;
 using System.Text;
 
-namespace Laba5_OOP_inheritance_polymorphism
+namespace Laba6_structures_enum
 {
     abstract class Vehicle : IVehicleActions
     {

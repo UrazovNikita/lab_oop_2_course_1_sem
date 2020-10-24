@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Laba5_OOP_inheritance_polymorphism
+namespace Laba6_structures_enum
 {
     class Corvette : Vehicle
     {
