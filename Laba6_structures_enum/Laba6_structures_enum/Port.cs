@@ -11,18 +11,11 @@ namespace Laba6_structures_enum
         private Vehicle[] vehicles;
         private int count = 0;
         private int size;
-
-        public Port(string inputName)
+        public Port(string inputName, int inputSize)
         {
             name = inputName;
-        }
-
-        public int Count
-        {
-            get
-            {
-                return count;
-            }
+            size = inputSize;
+            vehicles = new Vehicle[size];
         }
 
         private bool isFull()
@@ -38,26 +31,50 @@ namespace Laba6_structures_enum
         public void Add(Vehicle newVehicle)
         {
             if (isFull())
+            {
                 return;
-            vehicles[count++] = newVehicle;
-
+            }
+                vehicles[count++] = newVehicle;
         }
 
-        public void Del(Vehicle vehicle)
+        public void Delete(Vehicle deleteVehicle)
         {
-            int num = 0;
             if (isEmpty())
                 return;
-            for (int i = 0; i < count; i++)
+            for(int i=0; i<vehicles.Length; i++)
             {
-                if (an[i].Equals(el))
-                    num = i;
+                if(vehicles[i]==deleteVehicle)
+                {
+                    vehicles[i] = null;
+                    int j = i;
+                    while(j<size)
+                    {
+                        if(j+1==size)
+                        {
+                            break;
+                        }
+                        vehicles[j] = vehicles[j + 1];
+                        vehicles[j + 1] = null;
+                        j++;
+                    }
+
+                    break;
+                }
+               
+                
             }
-            for (int i = num; i < count; i++)
+        }
+
+        public void Show()
+        {
+            Console.Write(name);
+            Console.WriteLine();
+            int i = 0;
+           while(vehicles[i]!=null)
             {
-                an[i] = an[i + 1];
+                Console.WriteLine("           "+vehicles[i].name);
+                i++;
             }
-            count--;
         }
 
     }

@@ -10,9 +10,11 @@ namespace Laba5_OOP_inheritance_polymorphism
         public Captain captain;
 
         public Ship() { }
-        public Ship(string name)
+        public Ship(string captainName)
         {
-            this.captain = new Captain(name);
+            this.captain = new Captain(captainName);
+            name = captainName;
+            
         }
         public override void ring() {
             Console.WriteLine("ring");
@@ -22,14 +24,14 @@ namespace Laba5_OOP_inheritance_polymorphism
         {
             Console.WriteLine("ring interface");
         }
-        public override string ToString()
-        {
-            string str = Convert.ToString(this.GetType());
-            Console.WriteLine(this.crew);
-            Console.WriteLine(this.applicationArea);
-            Console.WriteLine(this.maxSpeed);
-            return str;
-        }
+        //public override string ToString()
+        //{
+        //    string str = Convert.ToString(this.GetType());
+        //    Console.WriteLine(this.crew);
+        //    Console.WriteLine(this.applicationArea);
+        //    Console.WriteLine(this.maxSpeed);
+        //    return str;
+        //}
 
      
 

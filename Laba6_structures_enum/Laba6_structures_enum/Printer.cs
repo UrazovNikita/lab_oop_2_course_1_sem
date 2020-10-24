@@ -6,10 +6,10 @@ namespace Laba5_OOP_inheritance_polymorphism
 {
     class Printer
     {
-        static public void IAmPrinting(IVehicleActions objects)
-        {
-            Console.WriteLine(objects.ToString());
-        }
+        //static public void IAmPrinting(IVehicleActions objects)
+        //{
+        //    Console.WriteLine(objects.ToString());
+        //}
     }
 }
 
