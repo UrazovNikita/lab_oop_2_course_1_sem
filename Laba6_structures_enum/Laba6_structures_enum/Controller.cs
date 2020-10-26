@@ -35,6 +35,7 @@ namespace Laba6_structures_enum
             val = val / count;
             Console.WriteLine("Среднее водоизмещение парусников: " + val);
             averageDisplaceSailboat = val;
+            Console.WriteLine();
             return val;
         }
 
@@ -58,6 +59,7 @@ namespace Laba6_structures_enum
             val = val / count;
             Console.WriteLine("Среднее количество посадочных мест: " + val);
             averageCrewSteamship = val;
+            Console.WriteLine();
             return val;
         }
 
@@ -70,11 +72,11 @@ namespace Laba6_structures_enum
                     break;
                 if (i.captain.age<35)
                 {
-                    Console.WriteLine("           " +Convert.ToString(i.GetType())+""+ i.captain.name);
+                    Console.WriteLine("           " +Convert.ToString(i.GetType())+"    "+ i.captain.name);
                    
                 }
             }
-           
+            Console.WriteLine();
         }
 
     }
