@@ -8,12 +8,29 @@ namespace Laba6_structures_enum
     {
        public string applicationArea = "military";
 
-        public Captain captain;
+       
 
         public Corvette() { }
-        public Corvette(string name)
+        public Corvette(string inputName, int inputAge)
         {
-            this.captain = new Captain(name);
+            captain = new Captain(inputName, inputAge);
+
+        }
+
+        public int Crew
+        {
+            get
+            {
+                return crew;
+            }
+
+            set
+            {
+                if (value <= Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Corvette))
+                {
+                    crew = value;
+                }
+            }
         }
         public override string ToString()
         {

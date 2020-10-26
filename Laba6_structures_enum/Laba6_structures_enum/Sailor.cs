@@ -4,18 +4,17 @@ using System.Text;
 
 namespace Laba6_structures_enum
 {
-   sealed class Captain
+    struct Sailor
     {
-        public Captain() { }
-
-        public Captain(string inputName, int inputAge)
-        {
-            name = inputName;
-
-            age = inputAge;
-        }
         public string name { get; set; }
         public int age { get; set; }
+
+        public Sailor(string inputName, int inputAge)
+        {
+            name = inputName;
+            age = inputAge;
+        }
+
 
     }
 }

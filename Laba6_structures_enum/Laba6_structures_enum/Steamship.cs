@@ -9,12 +9,28 @@ namespace Laba6_structures_enum
     {
 
         public string applicationArea = "civil";
-        public Captain captain;
+       
+        public int Crew
+        {
+            get
+            {
+                return crew;
+            }
+
+            set
+            {
+                if (value <= Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Steamship))
+                {
+                    crew = value;
+                }
+            }
+        }
 
         public Steamship() { }
-        public Steamship(string name)
+        public Steamship(string inputName, int inputAge)
         {
-            this.captain = new Captain(name);
+            captain = new Captain(inputName, inputAge);
+
         }
         public override void ring() { Console.Beep(1000, 300); }
 

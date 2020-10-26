@@ -8,12 +8,13 @@ namespace Laba6_structures_enum
     {
 
         public string applicationArea = "civil";
-        public Captain captain;
+        
 
         public Sailboat() { }
-        public Sailboat(string name)
+        public Sailboat(string inputName, int inputAge)
         {
-            this.captain = new Captain(name);
+            captain = new Captain(inputName, inputAge);
+
         }
 
         public override string ToString()

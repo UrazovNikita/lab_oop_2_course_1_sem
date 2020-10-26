@@ -1,21 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Laba6_structures_enum
 {
     class Ship : Vehicle, IVehicleActions
     {
-        public string applicationArea = "civil"; 
-        public Captain captain;
+        public string applicationArea = "civil";
+        
 
         public Ship() { }
-        public Ship(string captainName)
+        public Ship(string inputName, int inputAge)
         {
-            this.captain = new Captain(captainName);
-            name = captainName;
-            
+            captain = new Captain(inputName, inputAge);
+
         }
+
+        public int Crew
+        {
+            get
+            {
+                return crew;
+            }
+
+            set
+            {
+                if (value <= Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Ship))
+                {
+                    crew = value;
+                }
+            }
+        }
+
         public override void ring() {
             Console.WriteLine("ring");
         }
@@ -24,6 +41,7 @@ namespace Laba6_structures_enum
         {
             Console.WriteLine("ring interface");
         }
+
         //public override string ToString()
         //{
         //    string str = Convert.ToString(this.GetType());

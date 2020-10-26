@@ -9,9 +9,23 @@ namespace Laba6_structures_enum
     {
         public string applicationArea = "civil";
         public Boat() {
-            Console.Write("Ведите количство членов экипажа лодки:");
-            this.crew = Console.ReadLine();
-            Console.WriteLine();
+            
+        }
+
+        public int Crew
+        {
+            get
+            {
+                return crew;
+            }
+
+            set
+            {
+                if (value <= Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Ship))
+                {
+                    crew = value;
+                }
+            }
         }
 
         public override string ToString()

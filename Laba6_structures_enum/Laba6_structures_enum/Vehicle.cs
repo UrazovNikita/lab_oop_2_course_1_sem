@@ -8,10 +8,16 @@ namespace Laba6_structures_enum
 {
     abstract class Vehicle : IVehicleActions
     {
-        public string name { get; set; }
-        public string crew { get; set; }
-        protected string maxSpeed {get; set;}
-        protected string applicationArea { get; set; }
+        
+        public int crew { get; set; }
+        public string maxSpeed {get; set;}
+       public string applicationArea { get; set; }
+
+        public int displacement { get; set; }
+
+       public Captain captain { get; protected set; }
+
+        protected Sailor benjamin;
 
         public void move() {
             Console.WriteLine(Convert.ToString(this.GetType()) + " is moving");        

@@ -62,12 +62,13 @@ namespace Laba6_structures_enum
             int i = 0;
             while (vehicles[i] != null)
             {
-                Console.WriteLine("           " + vehicles[i].name);
+                Console.WriteLine("           " + vehicles[i].captain.name);
                 i++;
             }
+            Console.WriteLine();
         }
 
     }
 }
 
-}
+

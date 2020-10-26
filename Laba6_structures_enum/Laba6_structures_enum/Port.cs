@@ -8,9 +8,9 @@ namespace Laba6_structures_enum
     partial class Port
     {
         public string name { get; private set; }
-        private Vehicle[] vehicles;
+         public Vehicle[] vehicles { get; private set; }
         private int count = 0;
-        private int size;
+        public int size { get; private set; }
         public Port(string inputName, int inputSize)
         {
             name = inputName;
@@ -18,3 +18,4 @@ namespace Laba6_structures_enum
             vehicles = new Vehicle[size];
         }
     }
+}
