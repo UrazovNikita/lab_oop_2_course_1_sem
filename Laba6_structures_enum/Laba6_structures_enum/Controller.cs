@@ -73,7 +73,6 @@ namespace Laba6_structures_enum
                 if (i.captain.age<35)
                 {
                     Console.WriteLine("           " +Convert.ToString(i.GetType())+"    "+ i.captain.name);
-                   
                 }
             }
             Console.WriteLine();

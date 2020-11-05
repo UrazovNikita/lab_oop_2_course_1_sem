@@ -1,0 +1,13 @@
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.exe
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.deps.json
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.runtimeconfig.json
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.runtimeconfig.dev.json
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.dll
+E:\laboop\Laba7_exceptions\Laba7_exceptions\bin\Debug\netcoreapp3.1\Laba7_exceptions.pdb
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.csprojAssemblyReference.cache
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.AssemblyInfoInputs.cache
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.AssemblyInfo.cs
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.csproj.CoreCompileInputs.cache
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.dll
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.pdb
+E:\laboop\Laba7_exceptions\Laba7_exceptions\obj\Debug\netcoreapp3.1\Laba7_exceptions.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\laboop\\Laba2_OOP\\Laba2_OOP\\Laba2_OOP.csproj": {}
+    "E:\\laboop\\Laba2_OOP_arrays\\Laba2_OOP\\Laba2_OOP.csproj": {}
   },
   "projects": {
-    "E:\\laboop\\Laba2_OOP\\Laba2_OOP\\Laba2_OOP.csproj": {
+    "E:\\laboop\\Laba2_OOP_arrays\\Laba2_OOP\\Laba2_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\laboop\\Laba2_OOP\\Laba2_OOP\\Laba2_OOP.csproj",
+        "projectUniqueName": "E:\\laboop\\Laba2_OOP_arrays\\Laba2_OOP\\Laba2_OOP.csproj",
         "projectName": "Laba2_OOP",
-        "projectPath": "E:\\laboop\\Laba2_OOP\\Laba2_OOP\\Laba2_OOP.csproj",
+        "projectPath": "E:\\laboop\\Laba2_OOP_arrays\\Laba2_OOP\\Laba2_OOP.csproj",
         "packagesPath": "C:\\Users\\NikU\\.nuget\\packages\\",
-        "outputPath": "E:\\laboop\\Laba2_OOP\\Laba2_OOP\\obj\\",
+        "outputPath": "E:\\laboop\\Laba2_OOP_arrays\\Laba2_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

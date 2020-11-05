@@ -57,6 +57,7 @@ namespace Laba6_structures_enum
 
             Steamship steamship2 = new Steamship("sannu", 50);
             steamship2.crew = 400;
+
             Port port1 = new Port("saintropez", 6);
 
             port1.Add(steamship1);
@@ -73,6 +74,9 @@ namespace Laba6_structures_enum
             controller.AverageCrewSteamship(port1);
             controller.AverageDisplaceSailboat(port1);
             controller.LessThan35(port1);
+
+
+            Sailor sailor = new Sailor("Maxim", 22);
 
             //corvette1.crew = Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Corvette);
 

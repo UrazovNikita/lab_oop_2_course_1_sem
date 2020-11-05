@@ -23,7 +23,9 @@ namespace Laba6_structures_enum
             {
                 if (value <= Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Ship))
                 {
+
                     crew = value;
+
                 }
             }
         }

@@ -9,16 +9,27 @@ namespace Laba4_OOP_overloading
 
         public Owner user = new Owner(15, "Никита", "БГТУ");
 
+      public class Date
+        {
+            public string date = DateTime.Now.ToString();
+        }
+
+        public Date date=new Date();
+        
+
+
         public int x, y;
         public Vector()
         {
             x = 0;
             y = 0;
+            
         }
         public Vector(int x, int y)
         {
             this.x = x;
             this.y = y;
+            
         }
         public static Vector operator +(Vector Vector, Vector Vector1)
         {

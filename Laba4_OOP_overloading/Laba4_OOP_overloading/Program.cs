@@ -13,8 +13,7 @@ namespace Laba4_OOP_overloading
 
         static void Main(string[] args)
         {
-            Date Date = new Date();
-            Console.WriteLine("Дата создания: {0}", Date.date);
+           
 
             string str = "Hello world";
             Console.WriteLine(str);
@@ -22,6 +21,9 @@ namespace Laba4_OOP_overloading
             Vector one = new Vector(1, 2);
             Vector two = new Vector(3, 4);
             Vector four = new Vector(2, 2);
+
+            Console.WriteLine(one.date.date);
+
             Vector three = one + two;
             Console.WriteLine(one > two);
             Console.WriteLine(one < two);
