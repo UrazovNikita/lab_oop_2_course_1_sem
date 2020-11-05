@@ -12,7 +12,7 @@ namespace Laba7_exceptions
             message = inputMessage;
         }
 
-        public string message="object is full";
+        public string message= "object is full";
     }
 
 

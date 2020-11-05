@@ -79,27 +79,85 @@ namespace Laba7_exceptions
                 port1.Show();
 
                 Controller controller = new Controller();
-
-                controller.AverageCrewSteamship(port1);
-                controller.AverageDisplaceSailboat(port1);
-                controller.LessThan35(port1);
-
-                corvette1.crew = Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Corvette);
-
-
-
-                Ship ship = new Ship("Ivan", 34);
                 try
                 {
-                    ship.Crew = 350;
+                    controller.AverageCrewSteamship(port1);
+                }
+                catch (Exception exLimit)
+                {
+                    Console.WriteLine($"Ошибка: {exLimit.Message}");
+                }
+                try
+                {
+                        controller.AverageDisplaceSailboat(port1);
+                }
+                catch (Exception exLimit)
+                {
+                    Console.WriteLine($"Ошибка: {exLimit.Message}");
+                }
+                try
+                {
+                            controller.LessThan35(port1);
                 }
                 catch (Exception exLimit)
                 {
                     Console.WriteLine($"Ошибка: {exLimit.Message}");
                 }
 
-                Port portExcept = new Port("vladivostok", 10);
-                controller.AverageDisplaceSailboat(portExcept);
+
+
+
+                corvette1.crew = Convert.ToInt32(CrewLimit.vehiclesMaxCrew.Corvette);
+
+
+
+                Ship ship = new Ship("Ivan", 34);
+
+
+                try
+                {
+                    ship.Crew = 351;
+                }
+                catch (Exception exLimit)
+                {
+                    Console.WriteLine($"Ошибка: {exLimit.Message}");
+                }
+
+                Port portExcept = new Port("vladivostok", 2);
+                try
+                {
+                    controller.AverageDisplaceSailboat(portExcept);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{ex.Message}");
+                }
+
+                try
+                {
+                    portExcept.Add(steamship1);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{ex.Message}");
+                }
+
+                try
+                {
+                    portExcept.Add(steamship2);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{ex.Message}");
+                }
+                try
+                {
+                    portExcept.Add(sailboat1);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{ex.Message}");
+                }
 
             }
             catch(Exception ex)

@@ -12,22 +12,24 @@ namespace Laba7_exceptions
 
 
         public int averageCrewSteamship { get; private set; } = 0;
-       
-        
+
+
 
 
         public float AverageDisplaceSailboat(Port port)
         {
-            float val=0;
+
+
+            float val = 0;
             int count = 0;
 
-            for(int i=0; i<=port.vehicles.Length; i++ )
+            for (int i = 0; i <= port.vehicles.Length; i++)
             {
-                if (port.vehicles[i] == null)
+                if (port.vehicles[0] == null)
                 {
                     throw new ExceptionEmpty("В порту нет кораблей");
                 }
-                
+                if (port.vehicles[i] == null) break;
                 if (Convert.ToString(port.vehicles[i].GetType()) == "Laba7_exceptions.Sailboat")
                 {
                     val = val + port.vehicles[i].displacement;
@@ -41,6 +43,9 @@ namespace Laba7_exceptions
             Console.WriteLine();
             return val;
         }
+    
+
+            
 
         public int AverageCrewSteamship(Port port)
         {
@@ -48,11 +53,13 @@ namespace Laba7_exceptions
             int count = 0;
             for (int i = 0; i <= port.vehicles.Length; i++)
             {
-                if (port.vehicles[i] == null)
-                    break;
-                    if (Convert.ToString(port.vehicles[i].GetType()) == "Laba7_exceptions.Steamship")
-               
+                if (port.vehicles[0] == null)
+                {
+                    throw new ExceptionEmpty("В порту нет кораблей");
+                }
 
+                if (port.vehicles[i] == null) break;
+                if (Convert.ToString(port.vehicles[i].GetType()) == "Laba7_exceptions.Steamship")
                 {
                     val = val + port.vehicles[i].crew;
                     count++;
@@ -68,15 +75,15 @@ namespace Laba7_exceptions
 
         public void LessThan35(Port port)
         {
-            
+
             foreach (Vehicle i in port.vehicles)
             {
                 if (i == null)
                     break;
-                if (i.captain.age<35)
+                if (i.captain.age < 35)
                 {
-                    Console.WriteLine("           " +Convert.ToString(i.GetType())+"    "+ i.captain.name);
-                   
+                    Console.WriteLine("           " + Convert.ToString(i.GetType()) + "    " + i.captain.name);
+
                 }
             }
             Console.WriteLine();
@@ -84,3 +91,4 @@ namespace Laba7_exceptions
 
     }
 }
+
