@@ -1,5 +1,6 @@
 ﻿using Laba7_exceptions;
 using System;
+using System.Diagnostics;
 using System.Reflection.PortableExecutable;
 
 namespace Laba7_exceptions
@@ -120,7 +121,9 @@ namespace Laba7_exceptions
                 }
                 catch (Exception exLimit)
                 {
+                    Debug.Assert(true);
                     Console.WriteLine($"Ошибка: {exLimit.Message}");
+                    Console.WriteLine(exLimit.TargetSite);
                 }
 
                 Port portExcept = new Port("vladivostok", 2);
@@ -164,6 +167,7 @@ namespace Laba7_exceptions
             {
                 Console.WriteLine($"{ex.Message}");
             }
+           
             
         }
     }
