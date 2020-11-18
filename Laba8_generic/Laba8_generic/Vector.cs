@@ -76,5 +76,10 @@ namespace Laba8_generic
             if (Vector.x != 0 && Vector.y != 0) return true;
             else return false;
         }
+
+        public void PrintVector()
+        {
+            Console.WriteLine("Значения x и y:{0} и {1} ", this.x, this.y);
+        }
     }
 }

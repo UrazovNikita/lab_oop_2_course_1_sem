@@ -25,7 +25,8 @@ namespace Laba8_generic
         }
         public void Show(T obj)
         {
-            foreach (T i in list)
+          
+                
 
         }
     }
