@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace Laba8_generic
 {
-    class VectorList<T> : IGeneric<T>
+    class VectorList<T> : IGeneric<T> where T : Vector
     {
         public string name { get; private set; }
 
@@ -13,7 +14,7 @@ namespace Laba8_generic
             name=inputName;
             }
 
-        private List<T> list;
+        private List<T> list=new List<T>();
         public void Add(T obj)
         {
             list.Add(obj);
@@ -23,10 +24,28 @@ namespace Laba8_generic
         {
             list.Remove(obj);
         }
-        public void Show(T obj)
+        public void Show()
         {
-          
-                
+
+            foreach (Vector i in list)
+            {
+                i.PrintVector();
+
+            }
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+        }
+
+        public void fielWrite()
+        {
+            foreach (Vector i in list)
+            {
+
+                await fstream.WriteAsync(array, 0, array.Length);
+                Console.WriteLine("Текст записан в файл");
+            }
 
         }
     }

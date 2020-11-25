@@ -8,6 +8,6 @@ namespace Laba8_generic
     {
       public void Add(T obj);
       public void Delete(T obj);
-      public void Show(T obj);
+      public void Show();
     }
 }

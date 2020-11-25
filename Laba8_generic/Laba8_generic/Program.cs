@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Laba8_generic
 {
@@ -34,7 +35,44 @@ namespace Laba8_generic
             Console.WriteLine("Значение x и y:{0} и {1} ", three.x, three.y);
             Vector Vector = new Vector();
             Vector.user.GetInfo();
-            Console.ReadKey();
+
+
+
+
+            Console.WriteLine("-------------------------------------------");
+            VectorList<Vector> list1 = new VectorList<Vector>("list1");
+            list1.Add(one);
+            list1.Add(two);
+            list1.Add(three);
+
+            list1.Show();
+
+            list1.Delete(two);
+
+            list1.Show();
+
+            //VectorList<Ship> list2 = new VectorList<Ship>("list1");
+
+            string path = @"data.txt";
+
+            FileInfo file = new FileInfo(path);
+
+            if (!file.Exists)
+            {
+                File.Create(path);
+            }
+            else
+            {
+                using (FileStream fstream = File.OpenRead(path))
+                {
+                    fstream.Write
+                }
+            }
+
+
+
+
+
         }
     }
 

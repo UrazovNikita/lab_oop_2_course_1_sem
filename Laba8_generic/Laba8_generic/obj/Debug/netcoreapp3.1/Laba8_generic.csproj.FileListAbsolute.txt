@@ -1,0 +1,13 @@
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.exe
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.deps.json
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.runtimeconfig.json
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.runtimeconfig.dev.json
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.dll
+E:\laboop\Laba8_generic\Laba8_generic\bin\Debug\netcoreapp3.1\Laba8_generic.pdb
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.csprojAssemblyReference.cache
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.AssemblyInfoInputs.cache
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.AssemblyInfo.cs
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.csproj.CoreCompileInputs.cache
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.dll
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.pdb
+E:\laboop\Laba8_generic\Laba8_generic\obj\Debug\netcoreapp3.1\Laba8_generic.genruntimeconfig.cache
