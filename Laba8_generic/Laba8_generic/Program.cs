@@ -55,24 +55,25 @@ namespace Laba8_generic
 
             string path = @"data.txt";
 
-            FileInfo file = new FileInfo(path);
 
-            if (!file.Exists)
-            {
-                File.Create(path);
-            }
-            else
-            {
-                using (FileStream fstream = File.OpenRead(path))
-                {
-                    fstream.Write
-                }
-            }
+            DirectoryInfo dirInfo = new DirectoryInfo(path);
+
+            //if (!dirInfo.Exists)
+            //{
+            //    dirInfo.Create();
+            //}
+
+            list1.fileWrite(path);
 
 
+            list1.fileRead(path);
+          
 
+            Console.ReadLine();
 
+            
 
+          
         }
     }
 

@@ -10,11 +10,11 @@ namespace Laba8_generic
         public string name { get; private set; }
 
         public VectorList(string inputName)
-            {
-            name=inputName;
-            }
+        {
+            name = inputName;
+        }
 
-        private List<T> list=new List<T>();
+        private List<T> list = new List<T>();
         public void Add(T obj)
         {
             list.Add(obj);
@@ -38,15 +38,66 @@ namespace Laba8_generic
 
         }
 
-        public void fielWrite()
+        public void fileWrite(string path)
         {
-            foreach (Vector i in list)
+            // запись в файл
+            using (FileStream fstream = new FileStream(path, FileMode.OpenOrCreate))
+            {
+                string text;
+
+                foreach (Vector i in list)
+                {
+                    text = Convert.ToString(i.x) + " " + Convert.ToString(i.y)+"ƒ";
+
+
+                    // преобразуем строку в байты
+                    byte[] array = System.Text.Encoding.Default.GetBytes(text);
+                    
+                    fstream.Write(array, 0, array.Length);
+                   
+                }
+            }
+        }
+
+        public void fileRead(string path)
+        {
+            // чтение из файла
+            using (FileStream fstream = File.OpenRead(path))
             {
 
-                await fstream.WriteAsync(array, 0, array.Length);
-                Console.WriteLine("Текст записан в файл");
-            }
 
+
+                // преобразуем строку в байты
+                byte[] array = new byte[fstream.Length];
+                // считываем данные
+                fstream.Read(array, 0, array.Length);
+                // декодируем байты в строку
+                string textFromFile = System.Text.Encoding.Default.GetString(array);
+                int i=0;
+                int x = 0;
+                while (i < list.Count) {
+                    while (x < textFromFile.Length)
+                    {
+                        if ((Convert.ToString(textFromFile[x])) == "ƒ")
+                        {
+                            string sym = Convert.ToString(textFromFile[x-3]);
+                            list[i].x = Convert.ToInt32(sym);
+                            sym = Convert.ToString(textFromFile[x - 1]);
+                            list[i].y = Convert.ToInt32(sym);
+                            i++;
+                        }
+                        x++;
+                    }
+                }
+                
+                
+
+
+
+
+                  
+            }
         }
+
     }
 }
